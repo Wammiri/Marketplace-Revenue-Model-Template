@@ -1,66 +1,51 @@
 # Marketplace Revenue Model Template
 
-A 48-month financial model for commission-based marketplaces.  
-Designed to showcase clean FP&A logic, user-side unit economics, and dashboard storytelling.
+A 48-month financial model for commission-based marketplaces, with separate acquisition builds for buyers and sellers.
 
----
+**Open the model:** [Google Sheets](https://docs.google.com/spreadsheets/d/1uNohE_WiIY6JviR9H-RMQV1WKVA77qvseucBESBpCbs/edit?usp=sharing). To edit it, choose File > Make a copy.
 
-### 📘 Overview
-This workbook simulates how a two-sided marketplace scales over time:
-- **Buyers:** drive GMV through repeat orders  
-- **Sellers:** supply inventory and pay platform commissions  
-- **Platform:** earns revenue via take rate and tracks profitability via CAC/LTV
+The workbook lives in Google Sheets. This repo holds its documentation.
 
----
+## What it models
 
-### 🧩 File Structure
-| Sheet | Purpose |
-|-------|----------|
-| `Inputs` | All key assumptions and editable drivers |
-| `Financials` | Monthly forecast of GMV, revenue, costs, and profit |
-| `Summary` | KPI dashboard (GMV, LTV/CAC, margins, growth trends) |
-| `ReadMe` | Usage notes and model map |
+A two-sided marketplace as it grows:
 
----
+- **Buyers** place repeat orders, which create gross merchandise value (GMV).
+- **Sellers** supply the inventory and pay commission.
+- **The platform** earns the commission and pays to acquire both sides.
 
-### 📈 Key Features
-- 48-month time horizon  
-- Separate buyer and seller unit-economics blocks  
-- Dynamic CAC, retention, and LTV calculations  
-- Clean, color-coded input cells  
-- Ready for screenshots or dashboard export  
+Buyers and sellers each have their own channels, acquisition cost (CAC) and lifetime value (LTV). Everything is driven from the Inputs sheet.
 
----
+## What it produces
 
-### ⚙️ How to Use
-1. Open `Inputs` and plug in your assumptions.  
-2. Review `Financials` — outputs update automatically.  
-3. Visit `Summary` to view KPIs and visuals.  
-4. Duplicate the file for new marketplace concepts or scenarios.
+- A monthly P&L and balance sheet
+- Buyer and seller cohort retention
+- A KPI sheet with profitability and cash runway
+- Scenario switching
 
----
+## How to use it
 
-### 🧮 Metrics Included
-- GMV, Revenue, Gross Margin  
-- Buyer and Seller LTV  
-- CAC and LTV/CAC Ratio  
-- Monthly Runway & Cumulative Profit  
-- Growth charts for GMV and Users
+1. Make your own copy of the sheet.
+2. Enter your assumptions in Inputs.
+3. Read the monthly results and the KPI sheet, which update on their own.
+4. Switch scenarios to see how the outcome changes.
 
----
+## Terms
 
-### 🧠 Notes
-This model was built to demonstrate FP&A capability and marketplace modeling logic.  
-It’s a learning and showcase tool, not investment advice.
+| Term | Meaning |
+| --- | --- |
+| GMV | The total value of orders placed through the marketplace |
+| Take rate | The share of GMV the platform keeps as revenue |
+| CAC | The cost of winning one new buyer or seller |
+| LTV | The profit expected from one buyer or seller over their lifetime |
+| Runway | How many months the cash lasts |
 
----
+This is a learning and showcase model, not investment advice.
 
-### 🤝 Author
-**Isaac Olawamiri**  
-Fractional CFO & FP&A Partner  
-[LinkedIn](https://linkedin.com/in/isaacolawamiri)
+## Licence
 
----
+[MIT](LICENSE).
 
-### 📤 License
-Open for educational and portfolio use. Credit appreciated if reused.
+## Author
+
+[Isaac Olorode](https://isaac.aperio.finance) · [LinkedIn](https://linkedin.com/in/isaacolorode)
